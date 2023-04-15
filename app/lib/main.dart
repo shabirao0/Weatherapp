@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'ui/climateFile.dart';
+import 'package:weatherapp/home.dart';
 
-void main(List<String> args) {
-  runApp(new Material(
-    title: 'Climate(),'
-    home: Climate(),
-  ))
+void main() {
+  runApp(const MaterialApp(home: Home()));
 }
